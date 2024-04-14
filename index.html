@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/estilos/reset.css">
+    <link rel="stylesheet" href="assets/estilos/style.css">
+    <title>Acerte o número</title>
+</head>
+<body>
+    <div class="principal">
+        <h1 class="titulo">Fale um número até acertar</h1>
+        <p class="texto">O número secreto está entre <span id="menor">1</span> e <span id="maior">1000</span></p>
+        <div id="chute" class="mensagem">
+            <div>Você disse:</div>
+            <span class="box">20</span>
+            <div>O número secreto é maior <i class="fa-solid fa-up-long"></i></div>
+        </div>
+    </div>
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/reconhecimento.js"></script>
+</body>
+</html>

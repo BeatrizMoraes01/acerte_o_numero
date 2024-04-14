@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --background_principal: #030637;
+    --color_font: #FFFFFF;
+    --fonte: "Noto Serif", serif;
+}
+
+body{
+    background-color: var(--background_principal);
+    color: var(--color_font);
+    font-family: var(--fonte);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+}
+
+.mensagem{
+    font-size: 1.5em;
+}
+
+.box{
+    display: inline-block;
+    border: 1px solid var(--color_font);
+    padding: 8px;
+    font-size: 3em;
+    margin: 50px;
+    box-sizing: border-box;
+}
